@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "sqlite-tables",
+	"name": "SQLite Tables",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Link your Markdown tables to an SQLite database and keep them in sync across all of your notes.",
+	"author": "Axel Greavette",
+	"authorUrl": "https://axel.gg",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }

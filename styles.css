@@ -6,3 +6,72 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.sqlt-settings-header {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.sqlt-settings-span {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.sqlt-settings-description {
+    text-align: left;
+    margin: 0 0 11.250px 0;
+}
+
+.sqlt-settings-credits {
+    text-align: right;
+    margin: 0 0 11.250px 0;
+}
+
+.sqlt-settings-debug-span button {
+    color: yellow;
+    border-color: yellow;
+    border-width: 2px;
+}
+
+.sqlt-new-database-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+}
+
+
+.sqlt-new-database-column-type-input {
+    display: inline-block;
+    width: 20%;
+    text-align:left;
+    margin-left: 10px;
+}
+
+.sqlt-new-database-column-label-special {
+    justify-content: center;
+    display: inline-block;
+    width: 100px !important;
+}
+
+.sqlt-new-database-column-span {
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+.sqlt-new-database-column-button {
+    width: -webkit-fill-available;
+    margin: 5px;
+}
+
+.sqlt-new-database-column-button:nth-child(1) {
+    margin: 5px 5px 5px 0px;
+}
+.sqlt-new-database-column-button:nth-child(2) {
+    margin: 5px 0px 5px 5px;
+}
+
+.sqlt-new-database-button-space {
+    display: flex;
+}
